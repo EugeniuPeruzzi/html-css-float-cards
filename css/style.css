@@ -23,11 +23,29 @@ img{
     height: 85px;
     float: left;
 }
- 
-.email{
-    color: rgb(118, 218, 248);
+
+img::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
+.email{
+    color: rgb(118, 218, 248);
+    margin-top: 5px;
+}
+
+h3{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+span{
+    display: inline-block;
+    margin-left: 15px;
+}
 /* ELEMENTS */
 .container{
     margin: 50px auto;
@@ -35,6 +53,7 @@ img{
 }
 
 .row{
+    padding: 0px 100px;
     width: 100%;
     background-color: yellow;
 }
@@ -51,6 +70,7 @@ img{
 }
 
 .content{
+    font-size: 0.9rem;
     color: white;
     margin-top: 50px;
     width: 300px;
