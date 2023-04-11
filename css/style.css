@@ -17,8 +17,7 @@ h1{
     width: 100%;
     text-align: center;
 }
-/* main */
-
+/* div contetn elements */
 img{
     height: 85px;
     float: left;
@@ -46,16 +45,15 @@ span{
     display: inline-block;
     margin-left: 15px;
 }
-/* ELEMENTS */
+/* row elements */
 .container{
     margin: 50px auto;
-    max-width: 1170px;
+    max-width: 1000px;
 }
 
 .row{
-    padding: 0px 100px;
+    padding-left: 30px;
     width: 100%;
-    background-color: yellow;
 }
 
 .row::after{
