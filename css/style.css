@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+/* header */
+h1{
+    color: #E53170;
+}
+
+.intro > p{
+    margin-top: 50px;
+}
+
+.intro{
+    width: 100%;
+    text-align: center;
+}
+/* main */
+
+img{
+    height: 85px;
+    float: left;
+}
+ 
+.email{
+    color: rgb(118, 218, 248);
+}
+
+/* ELEMENTS */
+.container{
+    margin: 50px auto;
+    max-width: 1170px;
+}
+
+.row{
+    width: 100%;
+    background-color: yellow;
+}
+
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+}
+
+.content{
+    color: white;
+    margin-top: 50px;
+    width: 300px;
+    height: 85px;
+    background-color: rgb(15, 14, 23);
+}
+
